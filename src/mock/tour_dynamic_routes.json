@@ -1,0 +1,45 @@
+{
+  "list_path": {
+    "paths": [{
+        "path": "/europetour",
+        "keyword": "europetour"
+      }, {
+        "path": "/japantour",
+        "keyword": "japantour"
+      }, {
+        "path": "/japantour/midnightsun",
+        "keyword": "midnightsun"
+      },
+      {
+        "path": "/singaporetour",
+        "keyword": "singaporetour"
+      },
+      {
+        "path": "/americatour",
+        "keyword": "americatour"
+      },
+      {
+        "path": "/thailandtour/krabi",
+        "keyword": "krabi"
+      },
+      {
+        "path": "/tour/outbound",
+        "keyword": "outbound"
+      }
+    ],
+    "layout_key": "tour_list_page"
+  },
+  "list_filter_path": {
+    "paths": [{
+      "path": "/list-filter/japantour/",
+      "keyword": "japantour"
+    }, {
+      "path": "/list-filter/japantour/fuji/",
+      "keyword": "japantour-fuji"
+    }, {
+      "path": "/list-filter/italy/",
+      "keyword": "italy"
+    }],
+    "layout_key": "tour_list_filter_page"
+  }
+}

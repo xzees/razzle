@@ -1,0 +1,93 @@
+#promote {
+    background-color: white;
+}
+
+#promote .text-title {
+    color: #187cc7;
+    font-size: 1.75rem;
+    margin-bottom: 0rem;
+    line-height: 1.75rem;
+}
+
+#promote .text-title.color-gray {
+    color: #bbbccc !important;
+}
+
+#promote .box-list > span {
+    color: #bbbccc;
+    font-size: 1.5rem;
+}
+
+.box-list .border-icon {
+    border: 1px solid #187cc7 !important;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+/* bottom-right-dots */
+.bottom-right-dots
+{
+    right: 10px;
+    list-style: none;
+    position: absolute;
+    bottom: -45px;
+    text-align: right;
+    transform: rotateZ(270deg);
+}
+.bottom-right-dots li
+{
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+.bottom-right-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 11px;
+    height: 11px;
+    padding: 0px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    background: transparent;
+}
+.bottom-right-dots li button:hover,
+.bottom-right-dots li button:focus
+{
+    outline: none;
+}
+.bottom-right-dots li button:hover:before,
+.bottom-right-dots li button:focus:before
+{
+    opacity: 1;
+}
+.bottom-right-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 11px;
+    height: 11px;
+    content: '•';
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    border: 1px solid white !important;
+    border-radius: 50%;
+}
+.bottom-right-dots li.slick-active button:before
+{
+    color: #187cc7;
+}
+/* bottom-right-dots */

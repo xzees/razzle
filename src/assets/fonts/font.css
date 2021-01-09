@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "DBHeaventRoundedv32";
+  src: local("DBHeaventRoundedv32"),
+    url("./DBHeaventRounded/DBHeaventRoundedv32.woff2")
+      format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "DBHeaventRoundedMedv32";
+  src: local("DBHeaventRoundedMedv32"),
+    url("./DBHeaventRounded-Med/DBHeaventRoundedMedv32.woff2")
+      format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sarabun";
+  src: local("Sarabun"),
+    url("./Sarabun/Sarabun-Regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+
+*,
+button,
+input,
+label {
+  font-family: "DBHeaventRoundedv32";
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+  font-family: "DBHeaventRounded";
+  -webkit-font-smoothing: antialiased;
+}

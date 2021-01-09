@@ -1,0 +1,44 @@
+import CancellationInfoModelInterface from 'modules/hotel/models/CancellationInfoModel/CancellationInfoModelInterface';
+import IncrementalPriceModelInterface from 'modules/hotel/models/IncrementalPriceModel/IncrementalPriceModelInterface';
+import RoomInfoModelInterface from 'modules/hotel/models/RoomInfoModel/RoomInfoModelInterface';
+import PocilitiesModelInterface from 'modules/hotel/models/PocilitiesModel/PocilitiesModelInterface';
+import PaymentTermsModelInterface from 'modules/hotel/models/PaymentTermsModel/PaymentTermsModelInterface';
+import HotelPhotoModelInterface from 'modules/hotel/models/HotelPhotoModel/HotelPhotoModelInterface';
+import HotelFacilitiesModelInterface from 'modules/hotel/models/HotelFacilitiesModel/HotelFacilitiesModelInterface';
+
+export default interface BlockModelInterface {
+    addons: any[];
+    cancellationInfo: CancellationInfoModelInterface[];
+    incrementalPrice: IncrementalPriceModelInterface[];
+    roomInfo: RoomInfoModelInterface;
+    pocilities: PocilitiesModelInterface;
+    paymentTerms: PaymentTermsModelInterface;
+    roomPhotos: HotelPhotoModelInterface[];
+    roomFacilities: HotelFacilitiesModelInterface[];
+    allInclusive: boolean;
+    blockId: string;
+    breakfastIncluded: boolean;
+    ccRequired: boolean;
+    dealTagging: string;
+    depositRequired: boolean;
+    dinnerIncluded: boolean;
+    fullBoard: boolean;
+    halfBoard: boolean;
+    isFlashDeal: boolean;
+    lunchIncluded: boolean;
+    maxChildrenFree: number;
+    maxChildrenfreeAge: number;
+    maxOccupancy: number;
+    mealplanDescription: string;
+    name: string;
+    numberOfRoomsLeft: number;
+    photos: string;
+    refundable: boolean;
+    refundableUntil: string;
+    roomDescription: string;
+    roomId: number;
+    roomName: string;
+    smoking: number;
+    taxes: string;
+    selectedAmount: number;
+}

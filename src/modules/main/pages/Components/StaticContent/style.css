@@ -1,0 +1,32 @@
+#static-content {
+    background-image: url('./../../../assets/images/global-map.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#static-content .text-head {
+    font-size: 2.25rem;
+    color: white;
+}
+
+.box-icon img {
+    height: 80px;
+    width: auto;
+    margin: 15px auto;
+}
+
+.box-icon p {
+    font-size: 1.1rem;
+    color: #bbbccc;
+    line-height: 1.1rem;
+}
+
+.box-icon .text-title {
+    font-size: 1.75rem;
+    color: white;
+}

@@ -1,0 +1,12 @@
+{
+  "list_path": {
+    "paths": [{
+      "path": "/japantour",
+      "keyword": "japantour"
+    }, {
+      "path": "/japantour/midnightsun",
+      "keyword": "midnightsun"
+    }],
+    "layout_key": "tour_list_page"
+  }
+}

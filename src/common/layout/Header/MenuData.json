@@ -1,0 +1,491 @@
+[
+  {
+    "label": "หน้าหลัก",
+    "path": "/",
+    "buttonIcon": "IconHome",
+    "viewMode": "Mobile",
+    "order": 1,
+    "collab": false
+  },
+  {
+    "label": "ตั๋วเครื่องบิน",
+    "path": "https://www.thaitravelcenter.com/th/airticket/",
+    "buttonIcon": "IconFlight",
+    "viewMode": "ALL",
+    "order": 2,
+    "collab": true,
+    "subMenu": [
+      {
+        "label": "ตั๋วเครื่องบินต่างประเทศ",
+        "path": "https://www.thaitravelcenter.com/th/airticket/"
+      },
+      {
+        "label": "ตั๋วเครื่องบินในประเทศ",
+        "path": "https://www.thaitravelcenter.com/airticket/domestic-airfare/"
+      },
+      {
+        "label": "ตั๋วเครื่องบินการบินไทย",
+        "path": "https://www.thaitravelcenter.com/airticket/thaiairways/"
+      },
+      {
+        "label": "ตั๋วเครื่องบินบางกอกแอร์เวย์",
+        "path": "https://www.thaitravelcenter.com/airticket/bangkokairways/"
+      },
+      {
+        "label": "ตั๋วเครื่องบินไทยสมายล์",
+        "path": "https://www.thaitravelcenter.com/airticket/thaismileairways/"
+      },
+      {
+        "label": "ตั๋วเครื่องบินไทยไลอ้อนแอร์",
+        "path": "https://www.thaitravelcenter.com/airticket/thailionair/"
+      },
+      {
+        "label": "ตั๋วเครื่องบินเวียตเจ็ทแอร์",
+        "path": "https://www.thaitravelcenter.com/airticket/vietjet/"
+      },
+      {
+        "label": "ตั๋วเครื่องบินแอร์เอเชีย",
+        "path": "https://www.thaitravelcenter.com/airticket/airasia/"
+      },
+      {
+        "label": "ตั๋วเครื่องบินนักเรียน",
+        "path": "https://www.thaitravelcenter.com/airticket/student-airfare/"
+      },
+      {
+        "label": "ข้อมูลสายการบิน",
+        "path": "https://www.thaitravelcenter.com/airlines/"
+      }
+    ]
+  },
+  {
+    "label": "โรงแรม",
+    "path": "https://www.thaitravelcenter.com/hotel/th/",
+    "buttonIcon": "IconHotel",
+    "viewMode": "ALL",
+    "order": 3,
+    "collab": true,
+    "subMenu": [
+      {
+        "label": "จองโรงแรมต่างประเทศ",
+        "path": "https://www.thaitravelcenter.com/hotel/th/"
+      },
+      {
+        "label": "ฮ่องกงดิสนีย์แลนด์",
+        "path": "https://www.thaitravelcenter.com/hongkongdisneyland/"
+      },
+      {
+        "label": "ยูนิเวอร์แซลสตูดิโอ สิงคโปร์",
+        "path": "https://www.thaitravelcenter.com/singaporeuniversal/"
+      },
+      {
+        "label": "มาเก๊า เดอะเวเนเชี่ยนรีสอร์ท",
+        "path": "https://www.thaitravelcenter.com/macauvenetian/"
+      },
+      {
+        "label": "ซานริโอ พูโรแลนด์ โตเกียว",
+        "path": "https://www.thaitravelcenter.com/sanrio-puroland/"
+      }
+    ]
+  },
+  {
+    "label": "ทัวร์",
+    "path": "/tour/outbound/",
+    "buttonIcon": "IconTour",
+    "viewMode": "ALL",
+    "order": 4,
+    "collab": true,
+    "subMenu": [
+      {
+        "label": "ทัวร์ต่างประเทศ",
+        "path": "/tour/outbound/",
+        "megamenu": true,
+        "subMenu": [
+          {
+            "label": "ทัวร์ญี่ปุ่น",
+            "path": "/japantour/"
+          },
+          {
+            "label": "ทัวร์ยุโรป",
+            "path": "/europetour/"
+          },
+          {
+            "label": "ทัวร์จอร์เจีย",
+            "path": "/georgiatour/"
+          },
+          {
+            "label": "ทัวร์เกาหลี",
+            "path": "/koreatour/"
+          },
+          {
+            "label": "ทัวร์ไต้หวัน",
+            "path": "/taiwantour/"
+          },
+          {
+            "label": "ทัวร์พม่า",
+            "path": "/myanmartour/"
+          },
+          {
+            "label": "ทัวร์เวียดนาม",
+            "path": "/vietnamtour/"
+          },
+          {
+            "label": "ทัวร์จีน",
+            "path": "/chinatour/"
+          },
+          {
+            "label": "ทัวร์มาเก๊า",
+            "path": "/macautour/"
+          },
+          {
+            "label": "ทัวร์ตุรกี",
+            "path": "/turkeytour/"
+          },
+          {
+            "label": "ทัวร์รัสเซีย",
+            "path": "/russiatour/"
+          },
+          {
+            "label": "ทัวร์สิงคโปร์",
+            "path": "/singaporetour/"
+          },
+          {
+            "label": "ทัวร์เอเชีย",
+            "path": "/asiatour/"
+          },
+          {
+            "label": "ทัวร์ออสเตรเลีย",
+            "path": "/australiatour/"
+          },
+          {
+            "label": "ทัวร์นิวซีแลนด์",
+            "path": "/newzealandtour/"
+          },
+          {
+            "label": "ทัวร์มาเลเซีย",
+            "path": "/malaysiatour/"
+          },
+          {
+            "label": "ทัวร์ฮ่องกง",
+            "path": "/hongkongtour/"
+          },
+          {
+            "label": "ทัวร์ตะวันออกกลาง",
+            "path": "/middleeasttour/"
+          },
+          {
+            "label": "ทัวร์ลาว",
+            "path": "/laostour/"
+          },
+          {
+            "label": "ทัวร์อเมริกา",
+            "path": "/americatour/"
+          },
+          {
+            "label": "ทัวร์มัลดีฟส์",
+            "path": "https://www.thaitravelcenter.com/package-maldives/"
+          },
+          {
+            "label": "ทัวร์อินเดีย",
+            "path": "/indiatour/"
+          },
+          {
+            "label": "ทัวร์อียิปต์",
+            "path": "/egypttour/"
+          },
+          {
+            "label": "ทัวร์แอฟริกา",
+            "path": "/africatour/"
+          },
+          {
+            "label": "ทัวร์อเมริกาใต้",
+            "path": "/southamericatour/"
+          }
+        ]
+      },
+      {
+        "label": "ทัวร์ในประเทศ",
+        "path": "/thailandtour/", 
+        "megamenu": true,
+        "subMenu": [
+          {
+            "label": "ทัวร์เชียงใหม่",
+            "path": "/thailandtour/chiangmai/"
+          },
+          {
+            "label": "ทัวร์เชียงราย",
+            "path": "/thailandtour/chiangrai/"
+          },
+          {
+            "label": "ทัวร์กรุงเทพฯ",
+            "path": "/thailandtour/bangkok/"
+          },
+          {
+            "label": "ทัวร์เกาะช้าง",
+            "path": "/thailandtour/kohchang/"
+          },
+          {
+            "label": "ทัวร์ภูเก็ต",
+            "path": "/thailandtour/phuket/"
+          },
+          {
+            "label": "ทัวร์กระบี่",
+            "path": "/thailandtour/krabi/"
+          },
+          {
+            "label": "ทัวร์พังงา",
+            "path": "/thailandtour/phangnga/"
+          },
+          {
+            "label": "ทัวร์ไทย",
+            "path": "/thailandtour/"
+          },
+          {
+            "label": "ทัวร์ลดราคา",
+            "path": "https://www.thaitravelcenter.com/tour/discounted/"
+          },
+          {
+            "label": "ทัวร์ไฟไหม้",
+            "path": "https://www.thaitravelcenter.com/tour/discounted/"
+          },
+          {
+            "label": "Thailand Travel",
+            "path": "https://thailand.thaitravelcenter.com/"
+          },
+          {
+            "label": "ซีรีย์เกาหลี",
+            "path": "https://www.thaitravelcenter.com/article/korean-series-reccommended/"
+          },
+          {
+            "label": "ซีรีย์จีน",
+            "path": "https://www.thaitravelcenter.com/article/china-series-reccommended/"
+          }
+        ]
+      },
+      {
+        "label": "ทัวร์เทศกาล",
+        "path": "https://www.thaitravelcenter.com/tour/festival/",
+        "megamenu": true,
+        "subMenu": [
+          {
+            "label": "ทัวร์วันปีใหม่",
+            "path": "https://www.thaitravelcenter.com/tour/newyear/"
+          },
+          {
+            "label": "ทัวร์วันเด็ก",
+            "path": "https://www.thaitravelcenter.com/tour/childrenday/"
+          },
+          {
+            "label": "ทัวร์เทศกาลหิมะ",
+            "path": "https://www.thaitravelcenter.com/tour/snowfestival/"
+          },
+          {
+            "label": "ทัวร์วันตรุษจีน",
+            "path": "https://www.thaitravelcenter.com/tour/chinesenewyear/"
+          },
+          {
+            "label": "ทัวร์วันมาฆบูชา",
+            "path": "https://www.thaitravelcenter.com/tour/makhabuchaday/"
+          },
+          {
+            "label": "ทัวร์ญี่ปุ่นซากุระ",
+            "path": "https://www.thaitravelcenter.com/tour/japansakura/"
+          },
+          {
+            "label": "ทัวร์เทศกาลดอกทิวลิป",
+            "path": "https://www.thaitravelcenter.com/tour/tulipfestival/"
+          },
+          {
+            "label": "ทัวร์วันจักรี",
+            "path": "https://www.thaitravelcenter.com/tour/chakriday/"
+          },
+          {
+            "label": "ทัวร์วันสงกรานต์",
+            "path": "https://www.thaitravelcenter.com/tour/songkran/"
+          },
+          {
+            "label": "ทัวร์กำแพงหิมะ",
+            "path": "https://www.thaitravelcenter.com/tour/japansnowwall/"
+          },
+          {
+            "label": "ทัวร์กวางเจาเทรดแฟร์",
+            "path": "https://www.thaitravelcenter.com/tour/cantonfair/"
+          },
+          {
+            "label": "ทัวร์วันแรงงาน",
+            "path": "https://www.thaitravelcenter.com/tour/labourday/"
+          },
+          {
+            "label": "ทัวร์วันวิสาขบูชา",
+            "path": "https://www.thaitravelcenter.com/tour/visakhabuchaday/"
+          },
+          {
+            "label": "ทัวร์พระอาทิตย์เที่ยงคืน",
+            "path": "https://www.thaitravelcenter.com/tour/midnightsun/"
+          },
+          {
+            "label": "ทัวร์ทุ่งดอกลาเวนเดอร์",
+            "path": "https://www.thaitravelcenter.com/tour/hokkaidolavender/"
+          },
+          {
+            "label": "ทัวร์วันอาสาฬหบูชา",
+            "path": "https://www.thaitravelcenter.com/tour/asarnhabuchaday/"
+          },
+          {
+            "label": "ทัวร์วันเข้าพรรษา",
+            "path": "https://www.thaitravelcenter.com/tour/buddhistlentday/"
+          },
+          {
+            "label": "ทัวร์วันแม่",
+            "path": "https://www.thaitravelcenter.com/tour/motherday/"
+          },
+          {
+            "label": "ทัวร์จิ่วจ้ายโกว",
+            "path": "https://www.thaitravelcenter.com/tour/jiuzhaigou/"
+          },
+          {
+            "label": "ทัวร์วันปิยมหาราช",
+            "path": "https://www.thaitravelcenter.com/tour/chulalongkornday/"
+          },
+          {
+            "label": "ทัวร์วันลอยกระทง",
+            "path": "https://www.thaitravelcenter.com/tour/loykratongday/"
+          },
+          {
+            "label": "ทัวร์วันพ่อ",
+            "path": "https://www.thaitravelcenter.com/tour/fatherday/"
+          },
+          {
+            "label": "ทัวร์วันรัฐธรรมนูญ",
+            "path": "https://www.thaitravelcenter.com/tour/constitutionday/"
+          },
+          {
+            "label": "ทัวร์วันคริสต์มาส",
+            "path": "https://www.thaitravelcenter.com/tour/christmasday/"
+          },
+          {
+            "label": "ทัวร์แสงเหนือ",
+            "path": "https://www.thaitravelcenter.com/tour/aurora/"
+          },
+          {
+            "label": "ทัวร์วาเลนไทน์",
+            "path": "https://www.thaitravelcenter.com/tour/valentine/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "แพคเกจทัวร์",
+    "path": "https://www.thaitravelcenter.com/package-tour/th/",
+    "buttonIcon": "IconPKTour",
+    "viewMode": "ALL",
+    "order": 5,
+    "collab": true,
+    "subMenu": [
+      {
+        "label": "แพคเกจทัวร์",
+        "path": "https://www.thaitravelcenter.com/package-tour/th/"
+      },
+      {
+        "label": "แพคเกจอิสระ",
+        "path": "https://www.thaitravelcenter.com/package-tour/free-easy/"
+      },
+      {
+        "label": "แพคเกจคลับเมด",
+        "path": "https://www.thaitravelcenter.com/package-tour/club-med/"
+      },
+      {
+        "label": "แพคเกจในประเทศ",
+        "path": "https://www.thaitravelcenter.com/package-tour/domestic/"
+      },
+      {
+        "label": "แพคเกจต่างประเทศ",
+        "path": "https://www.thaitravelcenter.com/package-tour/outbound/"
+      },
+      {
+        "label": "แพคเกจมัลดีฟส์",
+        "path": "https://www.thaitravelcenter.com/package-maldives/"
+      }
+    ]
+  },
+  {
+    "label": "เช่ารถ",
+    "path": "https://www.thaitravelcenter.com/rentacar/th/",
+    "buttonIcon": "IconCars",
+    "viewMode": "ALL",
+    "order": 6,
+    "collab": true,
+    "subMenu": [
+      {
+        "label": "บริการรถลิมูซีน",
+        "path": "https://www.thaitravelcenter.com/limousine/th/"
+      },
+      {
+        "label": "เช่ารถขับเอง",
+        "path": "https://www.thaitravelcenter.com/rentacar/th/"
+      },
+      {
+        "label": "เช่ารถตู้",
+        "path": "https://www.thaitravelcenter.com/rentacar/vans/"
+      }
+    ]
+  },
+  {
+    "label": "ประกันภัยการเดินทาง",
+    "path": "https://www.thaitravelcenter.com/travel-insurance/th/",
+    "buttonIcon": "IconInsurance",
+    "viewMode": "ALL",
+    "order": 7,
+    "collab": false
+  },
+  {
+    "label": "จัดกรุ๊ปทัวร์",
+    "path": "https://www.thaitravelcenter.com/dmc/",
+    "buttonIcon": "IconDMC",
+    "viewMode": "ALL",
+    "order": 8,
+    "collab": false
+  },
+  {
+    "label": "รถไฟต่างประเทศ",
+    "path": "https://www.thaitravelcenter.com/rentacar/th/",
+    "buttonIcon": "IconRail",
+    "viewMode": "Mobile",
+    "order": 9,
+    "collab": true,
+    "subMenu": [
+      {
+        "label": "รถไฟยุโรป",
+        "path": "https://www.thaitravelcenter.com/raileurope/"
+      },
+      {
+        "label": "รถไฟญี่ปุ่น",
+        "path": "https://www.thaitravelcenter.com/japan-rail-pass/th/"
+      }
+    ]
+  },
+  {
+    "label": "เรือสำราญ",
+    "path": "https://www.thaitravelcenter.com/cruise/th/",
+    "buttonIcon": "IconCruise",
+    "viewMode": "Mobile",
+    "order": 10,
+    "collab": false
+  },
+  {
+    "label": "กิจกรรม",
+    "path": "#",
+    "buttonIcon": "IconSS",
+    "viewMode": "Mobile",
+    "order": 11,
+    "collab": false
+  },
+  {
+    "label": "บริการยื่นวีซ่า",
+    "path": "https://www.thaitravelcenter.com/visa/th/",
+    "buttonIcon": "IconVisa",
+    "viewMode": "Mobile",
+    "order": 12,
+    "collab": false
+  }
+]
