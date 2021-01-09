@@ -16,34 +16,34 @@ const renderLoadableComponents = (component: any) => {
 
 export default () =>
   [
-    {
-      path: "/",
-      label: "Test Page",
-      exact: true,
-      component: TestPage,
-      showInNavigationBar: true,
-    },
-    {
-      path: "/package",
-      label: "package",
-      exact: false,
-      component: renderLoadableComponents(import(/* webpackChunkName: "sightseeing" */ "modules/package/routes")),
-      showInNavigationBar: true,
-    },
-    {
-      path: "/collective",
-      label: "collective",
-      exact: false,
-      // component: renderLoadableComponents(import( /* webpackChunkName: "collective" */ "modules/collective/route")),
-      component: CollectivePage,
-      showInNavigationBar: true,
-    },
-    {
-      path: "/hotel",
-      label: "hotel",
-      exact: false,
-      // component: renderLoadableComponents(import( /* webpackChunkName: "hotel" */  "modules/hotel/route")),
-      component: HotelPage,
-      showInNavigationBar: true,
-    }
+    // {
+    //   path: "/",
+    //   label: "Test Page",
+    //   exact: true,
+    //   component: TestPage,
+    //   showInNavigationBar: true,
+    // },
+    // {
+    //   path: "/package",
+    //   label: "package",
+    //   exact: false,
+    //   component: renderLoadableComponents(import(/* webpackChunkName: "sightseeing" */ "modules/package/routes")),
+    //   showInNavigationBar: true,
+    // },
+    // {
+    //   path: "/collective",
+    //   label: "collective",
+    //   exact: false,
+    //   // component: renderLoadableComponents(import( /* webpackChunkName: "collective" */ "modules/collective/route")),
+    //   component: CollectivePage,
+    //   showInNavigationBar: true,
+    // },
+    // {
+    //   path: "/hotel",
+    //   label: "hotel",
+    //   exact: false,
+    //   // component: renderLoadableComponents(import( /* webpackChunkName: "hotel" */  "modules/hotel/route")),
+    //   component: HotelPage,
+    //   showInNavigationBar: true,
+    // }
   ] as RouteConfig[];
